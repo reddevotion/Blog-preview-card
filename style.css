@@ -52,14 +52,14 @@ body {
     gap: 12px;
 }
 
-.content h6 {
+.content h3 {
     font-weight: 600;
     font-size: clamp(12px, 1vw, 14px);
     line-height: 150%;
     letter-spacing: 0px;
     color: #111111;
 }
-.content h2 {
+.content h1 {
     font-weight: 900;
     font-size: clamp(20px, 1.3vw, 24px);
     line-height: 150%;
@@ -67,7 +67,7 @@ body {
     color: #111111;
     transition: color 0.2s ease-in-out;
 }
-.card:hover h2 {
+.card:hover h1 {
     color: #f4d04e;
 }
 
@@ -91,7 +91,7 @@ body {
     border-radius: 4px;
 }
 
-.learning h5 {
+.learning h2 {
     color: #111111;
     font-size: clamp(12px, 1vw, 14px);
     line-height: 150%;
