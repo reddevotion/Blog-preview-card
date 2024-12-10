@@ -52,7 +52,7 @@ body {
     gap: 12px;
 }
 
-.content h3 {
+.content .date {
     font-weight: 600;
     font-size: clamp(12px, 1vw, 14px);
     line-height: 150%;
@@ -71,7 +71,7 @@ body {
     color: #f4d04e;
 }
 
-.content p {
+.content .description {
     font-weight: 600;
     font-size: clamp(14px, 1vw, 16px);
     color: #6b6b6b;
@@ -91,7 +91,7 @@ body {
     border-radius: 4px;
 }
 
-.learning h2 {
+.learning p {
     color: #111111;
     font-size: clamp(12px, 1vw, 14px);
     line-height: 150%;
@@ -105,7 +105,7 @@ align-items: center;
 gap: 12px;
 }
 
-.author  h4{
+.author  p{
     font-weight: 900;
     font-size: 14px;
     color: #111111;
